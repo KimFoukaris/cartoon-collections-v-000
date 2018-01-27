@@ -7,7 +7,7 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(calls)
-  if (calls.detect {|call| call.length > 4}) = nil
+  if (calls.detect {|call| call.length > 4}) == nil
     false
   else
     true
